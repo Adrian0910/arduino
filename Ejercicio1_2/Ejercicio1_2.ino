@@ -1,0 +1,202 @@
+int ledPin = 11;
+
+void setup() {
+Serial.begin(9600);
+pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+
+char incomingByte = Serial.read(); switch (incomingByte) {
+case '1':
+  digitalWrite(ledPin, HIGH);
+  delay(300);
+  digitalWrite(ledPin, LOW);
+  
+  break;
+case '2':
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+case '3':
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+case '4': 
+  digitalWrite(ledPin, HIGH);
+  delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+  delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+case '5': 
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+  delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break; 
+  case '6':
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+  case '7':
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+  case '8':
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+  delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+  case '9':
+  digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+   delay(300);
+   digitalWrite(ledPin, HIGH);
+   delay(300);
+   digitalWrite(ledPin, LOW);
+  break;
+ } 
+}
